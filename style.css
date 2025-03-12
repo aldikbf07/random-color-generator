@@ -1,0 +1,101 @@
+/* Reset some default browser styles */
+*{
+    font-family: "Rubik", sans-serif;
+}
+
+/* Set a background color and font for the body */
+body {
+    background-color: #0f0f0f;
+    color: #333;
+    line-height: 1.6;
+}
+
+.nav-item{
+    font-weight: 600;
+}
+
+.navbar-nav{
+    padding-right: 7rem;
+}
+
+.navbar-brand{
+    font-weight: 600;
+}
+/* Style the header */
+header {
+    background: #e94949;
+    color: #fff; /* Changed color for better contrast */
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease; /* Added transition */
+}
+
+header:hover {
+    background: #d73838; /* Added hover effect */
+}
+
+/* Style the navigation bar */
+.nav-item{
+    text-align: right;
+}
+
+/* Style the main content area */
+main {
+    background: #201e1e;
+    text-align: center;
+    margin: 20px;
+    padding: 80px 20px;
+    margin-top: 10%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: #fff;
+    transition: background 0.3s ease; /* Added transition */
+}
+
+
+main:hover {
+    background: #2a2929; /* Added hover effect */
+}
+
+/* Style the footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease; /* Added transition */
+}
+
+footer:hover {
+    background: #444; /* Added hover effect */
+}
+
+.btn{
+    background-color: #ffffff; /* Green */
+    border: solid 2px rgb(56, 56, 56);
+    color: rgb(56, 56, 56);
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.btn:hover {
+    background-color: rgb(56, 56, 56); /* Green */
+    color: #ffffff;
+    border: solid 2px rgb(255, 255, 255);
+}
+
+/* color */
+@media (max-width: 767.98px) { 
+    main{
+        margin-top: 30%;
+    }
+}
